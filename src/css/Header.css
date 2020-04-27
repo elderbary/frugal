@@ -1,0 +1,43 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-rows: repeat(4, 1fr);
+    background-color: black;
+    height: 75vh;
+    width: 72vw;
+    margin: 0 auto;
+    margin-top: -8px;
+}
+
+.logo {
+    grid-column: 1/1;
+    grid-row: 1;
+    background-color: blue;
+    margin-top: 30px;
+}
+/* title */
+.title {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.title h1 {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+}
+
+.title p {
+    font-size: 20px;
+    color: #62647d;
+    text-align: center;
+}
+
+.start-view {
+    grid-column: 2;
+    grid-row: 4;
+    margin: 0 auto;
+    margin-top: 140px;
+    z-index: 1;
+}
