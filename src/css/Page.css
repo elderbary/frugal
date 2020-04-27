@@ -1,0 +1,35 @@
+.wrapper-page-1 {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(5, 1fr);
+    background-color: white;
+    height: 75vh;
+    width: 72vw;
+    margin: 0 auto;
+    margin-top: 650px;
+}
+
+.photo-1 {
+    grid-column: 2/2;
+    grid-row: 1/4;
+}
+
+
+.description-1 {
+    grid-column: 3/4;
+    grid-row: 3/3;
+    margin-top: -60px;
+    margin-left: 70px;
+}
+
+.description-1 h1 {
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.description-1 p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -15px;
+}

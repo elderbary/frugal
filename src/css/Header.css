@@ -12,7 +12,6 @@
 .logo {
     grid-column: 1/1;
     grid-row: 1;
-    background-color: blue;
     margin-top: 30px;
 }
 /* title */
@@ -26,11 +25,20 @@
     font-size: 38px;
     color: white;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .title p {
     font-size: 20px;
     color: #62647d;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.download {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 
@@ -38,6 +46,6 @@
     grid-column: 2;
     grid-row: 4;
     margin: 0 auto;
-    margin-top: 140px;
+    margin-top: 130px;
     z-index: 1;
 }

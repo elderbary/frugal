@@ -11,7 +11,7 @@ const Header = () => {
             <div className="title">
                 <h1>Odkryj nowy wymiar oszczędzania.</h1>
                 <p>Aplikacja stworzona po to, aby ułatwić oszczczędznie środków własnych. Posiada liczne zalety.</p>
-                <button>DOWNLOAD</button>
+                <button className="download">DOWNLOAD</button>
             </div>
             <div className="start-view">
                 <img src={photo} alt="" />
