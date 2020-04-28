@@ -1,6 +1,6 @@
 import React from 'react';
 import photo from '../img/photo-1.png';
-import '../css/Page.scss';
+import '../scss/Page.scss';
 
 const PageFour = () => {
     return (

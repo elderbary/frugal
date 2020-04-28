@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/App.scss';
+import '../scss/App.scss';
 import Header from './Header';
 import PageOne from './PageOne';
 import PageTwo from './PageTwo';
