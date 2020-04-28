@@ -1,56 +1,56 @@
+@import "mixins";
+
 .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr; 
-    grid-template-rows: repeat(4, 1fr);
-    background-color: #0f0c29;
-    height: 78vh;
-    width: 72vw;
-    margin: 0 auto;
-    margin-top: -8px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  background-color: #0f0c29;
+  height: 78vh;
+  width: $width;
+  margin: 0 auto;
+  margin-top: -8px;
 }
 
 .logo {
-    grid-column: 1/1;
-    grid-row: 1;
-    margin-top: 30px;
+  grid-column: 1/1;
+  grid-row: 1;
+  margin-top: 30px;
 }
 /* title */
 .title {
-    grid-column: 2;
-    grid-row: 2;
-    margin: 0 auto;
-    padding-top: 140px;
-}
-.title h1 {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0 auto;
+  padding-top: 140px;
+
+  h1 {
     font-size: 38px;
     color: white;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: $font-name;
+  }
 
-}
-
-.title p {
+  p {
     font-size: 20px;
     color: #62647d;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-
+    font-family: $font-name;
+  }
 }
 
 .download {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
+  font-family: $font-name;
+  text-align: center;
 }
 
 .start-view {
-    grid-column: 2;
-    grid-row: 4;
-    margin: 0 auto;
-    margin-top: 100px;
-    z-index: 1;
-    
-}
+  grid-column: 2;
+  grid-row: 4;
+  margin: 0 auto;
+  margin-top: 100px;
+  z-index: 1;
 
-.start-view img {
+  img {
     width: 110%;
+  }
 }
