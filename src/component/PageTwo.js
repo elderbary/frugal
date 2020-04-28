@@ -1,6 +1,6 @@
 import React from 'react';
 import photo from '../img/photo-1.png';
-import '../css/Page.css';
+import '../css/Page.scss';
 
 const PageTwo = () => {
     return (
