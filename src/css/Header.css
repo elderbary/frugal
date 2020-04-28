@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 2fr 1fr; 
     grid-template-rows: repeat(4, 1fr);
-    background-color: black;
-    height: 75vh;
+    background-color: #0f0c29;
+    height: 78vh;
     width: 72vw;
     margin: 0 auto;
     margin-top: -8px;
@@ -19,7 +19,7 @@
     grid-column: 2;
     grid-row: 2;
     margin: 0 auto;
-    padding-top: 90px;
+    padding-top: 140px;
 }
 .title h1 {
     font-size: 38px;
@@ -46,6 +46,11 @@
     grid-column: 2;
     grid-row: 4;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 100px;
     z-index: 1;
+    
+}
+
+.start-view img {
+    width: 110%;
 }

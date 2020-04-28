@@ -1,7 +1,10 @@
 import React from 'react';
 import '../css/App.css';
 import Header from './Header';
-import Page from './Page';
+import PageOne from './PageOne';
+import PageTwo from './PageTwo';
+import PageThree from './PageThree';
+import PageFour from './PageFour';
 import Footer from './Footer';
 
 function App() {
@@ -11,7 +14,10 @@ function App() {
         {<Header />}
       </header>
       <main>
-        {<Page />}
+        {<PageOne />}
+        {<PageTwo />}
+        {<PageThree />}
+        {<PageFour />}
       </main>
       <footer>
         {<Footer />}

@@ -1,0 +1,23 @@
+.wrapper-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #0f0c29;
+    height: 30vh;
+    width: 72vw;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.copyright {
+    grid-row: 2;
+    grid-column: 2;
+    margin: 0 auto;
+    color:white;
+    padding-top: 20px;
+}
+
+.copyright p {
+    font-family: 'Poppins', sans-serif;
+}
+
