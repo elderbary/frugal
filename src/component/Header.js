@@ -10,14 +10,15 @@ const Header = () => {
         <h1>Odkryj nowy wymiar oszczędzania.</h1>
         <p>
           Aplikacja stworzona po to, aby ułatwić oszczczędznie środków własnych.
-          Posiada liczne zalety.
         </p>
-        <button className="download">DOWNLOAD</button>
+        <div className="div-button">
+          <button className="download">DOWNLOAD</button>
+        </div>
       </div>
       <div className="start-view">
         <img src={photo} alt="" />
       </div>
-    </cointainer>
+    </cointainer >
   );
 };
 

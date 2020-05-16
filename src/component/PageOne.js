@@ -1,12 +1,14 @@
 import React from "react";
-import photo from "../img/photo-1.png";
 import "../scss/Page.scss";
+import Picture from "./Picture";
+
+import photo1 from "../img/1.png";
 
 const PageOne = () => {
   return (
     <cointainer className="wrapper-page-1">
       <div className="photo-1">
-        <img src={photo} alt="" />
+        <Picture img={photo1} alt="pc" />
       </div>
       <div className="description-1">
         <h1>Innovation.</h1>

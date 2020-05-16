@@ -5,7 +5,10 @@ const Footer = () => {
   return (
     <cointainer className="wrapper-footer">
       <div className="copyright">
-        <p>copyright 2020 Dawid Różańśki</p>
+        <p>Stworzył: Dawid Różański</p>
+      </div>
+      <div className="div-contact">
+        <p>Kontakt</p>
       </div>
     </cointainer>
   );
