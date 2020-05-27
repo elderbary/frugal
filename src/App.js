@@ -1,5 +1,6 @@
 import React from "react";
 import "./scss/App.scss";
+
 import Header from "./component/Header";
 import PageOne from "./component/PageOne";
 import PageTwo from "./component/PageTwo";
